@@ -1,0 +1,5 @@
+C:/Omar_Dev/unity_Projects/MR_EducationalProject/.utmp/RelWithDebInfo/6y5g3625/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Omar_Dev/unity_Projects/MR_EducationalProject/.utmp/RelWithDebInfo/6y5g3625/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Omar_Dev/unity_Projects/MR_EducationalProject/.utmp/RelWithDebInfo/6y5g3625/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Omar_Dev/unity_Projects/MR_EducationalProject/.utmp/RelWithDebInfo/6y5g3625/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Omar_Dev/unity_Projects/MR_EducationalProject/.utmp/RelWithDebInfo/6y5g3625/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
