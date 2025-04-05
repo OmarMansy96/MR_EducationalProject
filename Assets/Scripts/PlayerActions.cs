@@ -9,7 +9,10 @@ public class PlayerActions : MonoBehaviour
     public UnityEngine.XR.Interaction.Toolkit.Interactors.XRRayInteractor rayInteractor; // XR Ray Interactor from the XR Controller
     public InputActionProperty triggerAction; // XR Controller trigger input
     public Transform spawnParent; // Optional parent for organization
+    public GameObject canvas; // Assign the Canvas in Inspector
+    private bool isCanvasVisible = false;
 
+    public InputActionProperty menuButtonAction;
     private void Update()
     {
         if (rayInteractor == null || objectToSpawn == null || triggerAction.action == null)
@@ -18,6 +21,10 @@ public class PlayerActions : MonoBehaviour
         if (triggerAction.action.WasPressedThisFrame()) // Detect trigger press
         {
             TrySpawnObject();
+        }
+        if (menuButtonAction.action.WasPressedThisFrame())
+        {
+            ToggleCanvas();
         }
     }
 
@@ -33,5 +40,11 @@ public class PlayerActions : MonoBehaviour
                 Instantiate(objectToSpawn, spawnPosition, spawnRotation, spawnParent);
             }
         }
+    }
+
+    void ToggleCanvas()
+    {
+        isCanvasVisible = !isCanvasVisible;
+        canvas.SetActive(isCanvasVisible);
     }
 }

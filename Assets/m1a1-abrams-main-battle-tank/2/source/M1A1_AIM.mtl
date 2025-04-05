@@ -1,0 +1,208 @@
+newmtl d184b6e7-7b06-4f70-896a-00920ae247e7
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/m1a1_aim_abrams_c_u.jpg
+map_Ks textures/m1a1_aim_abrams_n_s.jpg
+map_normal textures/m1a1_aim_abrams_n_n.jpg
+map_ao textures/m1a1_aim_abrams_ao_ao.jpg
+
+newmtl 7e38ee10-f3c6-457c-8df0-8a4ab754dc6d
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/m1a1_abrams_body_add_c_u.jpg
+map_Ks textures/m1a1_abrams_body_add_n_s.jpg
+map_normal textures/m1a1_abrams_body_add_n_n.jpg
+map_ao textures/m1a1_abrams_body_add_ao_ao.jpg
+
+newmtl 9cab14e4-c753-44a4-b97f-20dc319da6e1
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/m1a1_abrams_body_c_u.jpg
+map_Ks textures/m1a1_abrams_body_n_s.jpg
+map_normal textures/m1a1_abrams_body_n_n.jpg
+map_ao textures/m1a1_abrams_body_ao_ao.jpg
+
+newmtl fbbf4c72-0606-4b57-8cf2-d7637d5d288a
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/net_f_c.jpg
+map_Ks textures/net_f_n_s.jpg
+map_normal textures/net_f_n_n.jpg
+map_ao textures/net_f_ao_ao.jpg
+map_d textures/net_f_c_a.png
+
+newmtl f7c05af5-2d53-4a9c-a592-297b3914a1fa
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/headlight_glass_c.jpg
+map_Ks textures/headlight_glass_n_s.jpg
+map_normal textures/headlight_glass_n_n.jpg
+map_ao textures/headlight_glass_n_ao.jpg
+
+newmtl cdd68028-769b-4b89-a539-9f720954aafe
+Kd 0.000 0.000 0.000
+Ks 1.000 1.000 1.000
+Ns 255
+Ke 0.000 0.000 0.000
+d 0.15
+map_Kd textures/headlight_glass_c.jpg
+map_Ks textures/headlight_glass_n_s.jpg
+map_normal textures/headlight_glass_n_n.jpg
+map_d textures/headlight_glass_c_a.png
+
+newmtl 3cebcbe4-3bc3-4ba0-9f35-62d4fb357e89
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/m1a1_abrams_turret_c_u.jpg
+map_Ks textures/m1a1_abrams_turret_n_s.jpg
+map_normal textures/m1a1_abrams_turret_n_n.jpg
+map_ao textures/m1a1_abrams_turret_ao_ao.jpg
+
+newmtl 7947bb97-ffe2-4375-9738-bdae4b7ae7fd
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/mg_m240_c_mg_m240_c.jpg
+map_Ks textures/mg_m240_n_s.jpg
+map_normal textures/mg_m240_n_n.jpg
+map_ao textures/mg_m240_ao_ao.jpg
+
+newmtl 0b90d94e-77b6-43da-9678-78ff4c660f03
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/mg_browning_m1919a4_ammo_c.jpg
+map_Ks textures/mg_browning_m1919a4_ammo_n_s.jpg
+map_normal textures/mg_browning_m1919a4_ammo_n_n.jpg
+map_ao textures/mg_browning_m1919a4_ammo_ao_ao.jpg
+map_d textures/mg_browning_m1919a4_ammo_c_a.png
+
+newmtl fbb84001-63ad-45d9-98ae-ba94b920e311
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/m1a1_abrams_ammo_box_c_m1a1_abrams_ammo_box_c.jpg
+map_Ks textures/m1a1_abrams_ammo_box_n_s.jpg
+map_normal textures/m1a1_abrams_ammo_box_n_n.jpg
+map_ao textures/m1a1_abrams_ammo_box_ao_ao.jpg
+
+newmtl f1d5cec1-a751-43e3-b7ad-20becc60a03b
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/mg_browning_m2hb_c.jpg
+map_Ks textures/mg_browning_m2hb_n_s.jpg
+map_normal textures/mg_browning_m2hb_n_n.jpg
+map_ao textures/mg_browning_m2hb_ao_ao.jpg
+map_d textures/mg_browning_m2hb_c_a.png
+
+newmtl e4d26d61-a1fc-43b7-b21b-446fdc538736
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/mg_browning_m2hb_ammo_c.jpg
+map_Ks textures/mg_browning_m2hb_ammo_n_s.jpg
+map_normal textures/mg_browning_m2hb_ammo_n_n.jpg
+map_ao textures/mg_browning_m2hb_ammo_ao_ao.jpg
+map_d textures/mg_browning_m2hb_ammo_c_a.png
+
+newmtl 28cf3f45-18c6-4cd2-a4dd-cb2507948cf4
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/net_c_c.jpg
+map_Ks textures/net_c_n_s.jpg
+map_normal textures/net_c_n_n.jpg
+map_ao textures/net_c_ao_ao.jpg
+map_d textures/net_c_c_a.png
+
+newmtl 8b853e4a-51af-4f8f-a344-ff94d2de7872
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/m1a1_abrams_gun_c_u.jpg
+map_Ks textures/m1a1_abrams_gun_n_s.jpg
+map_normal textures/m1a1_abrams_gun_n_n.jpg
+map_ao textures/m1a1_abrams_gun_ao_ao.jpg
+
+newmtl 5dbed368-c6fb-4866-989f-ac8279a19359
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/smooth_barrel_a_c.jpg
+map_Ks textures/smooth_barrel_a_n_s.jpg
+map_normal textures/smooth_barrel_a_n_n.jpg
+map_ao textures/smooth_barrel_a_n_ao.jpg
+
+newmtl 1b51507f-f507-4b89-af59-a54e1c9b6449
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/bag_a_c_bag_a_c.jpg
+map_Ks textures/bag_a_n_s.jpg
+map_normal textures/bag_a_n_n.jpg
+map_ao textures/bag_a_ao_ao.jpg
+
+newmtl eeec4692-324e-4abf-b85b-71f1709d65f6
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/water_barrel_a_c_water_barrel_a_c.jpg
+map_Ks textures/water_barrel_a_n_s.jpg
+map_normal textures/water_barrel_a_n_n.jpg
+map_ao textures/water_barrel_a_ao_ao.jpg
+
+newmtl 5a8e6405-b0bc-4c7d-af29-e1cfba65ee6f
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/us_m1a1_hc_abrams_track_c.jpg
+map_Ks textures/us_m1a1_hc_abrams_track_n_s.jpg
+map_normal textures/us_m1a1_hc_abrams_track_n_n.jpg
+map_ao textures/us_m1a1_hc_abrams_track_ao_ao.jpg
+map_d textures/us_m1a1_hc_abrams_track_c_a.png
+
+newmtl 2f840d67-e640-4883-8bea-17c2d4ff2eab
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/us_m1a1_hc_abrams_track_c.jpg
+map_Ks textures/us_m1a1_hc_abrams_track_n_s.jpg
+map_normal textures/us_m1a1_hc_abrams_track_n_n.jpg
+map_ao textures/us_m1a1_hc_abrams_track_ao_ao.jpg
+map_d textures/us_m1a1_hc_abrams_track_c_a.png
+
+newmtl b03358b7-3cf0-468e-a334-e8084c239620
+Kd 1.000 1.000 1.000
+Ks 0.502 0.502 0.502
+Ns 30
+Ke 0.000 0.000 0.000
+map_Kd textures/m1a1_aim_abrams_c_u.jpg
+map_Ks textures/m1a1_aim_abrams_n_s.jpg
+map_normal textures/m1a1_aim_abrams_n_n.jpg
+map_ao textures/m1a1_aim_abrams_ao_ao.jpg
+
