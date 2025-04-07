@@ -13,6 +13,12 @@ public class PlayerActions : MonoBehaviour
     private bool isCanvasVisible = false;
 
     public InputActionProperty menuButtonAction;
+    private void Start()
+    {
+        canvas = GameObject.FindGameObjectWithTag("ControllerUI").gameObject;
+        canvas.SetActive(false);
+        //canvas = FindFirstObjectByType<Canvas>().gameObject;
+    }
     private void Update()
     {
         if (rayInteractor == null || objectToSpawn == null || triggerAction.action == null)
