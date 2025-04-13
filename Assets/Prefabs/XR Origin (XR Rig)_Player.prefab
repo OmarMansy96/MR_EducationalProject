@@ -1440,9 +1440,9 @@ GameObject:
   - component: {fileID: 7006268275649427869}
   - component: {fileID: 6096936868020124137}
   - component: {fileID: 8596553377892477029}
-  - component: {fileID: 2018875489867191255}
   - component: {fileID: 6677201522470322328}
   - component: {fileID: 7589875355741547567}
+  - component: {fileID: 2018875489867191255}
   m_Layer: 2
   m_Name: XR Origin (XR Rig)_Player
   m_TagString: Player
@@ -1592,7 +1592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GlobalObjectIdHash: 892676736
-  InScenePlacedSourceGlobalObjectIdHash: 0
+  InScenePlacedSourceGlobalObjectIdHash: 892676736
   DeferredDespawnTick: 0
   Ownership: 1
   AlwaysReplicateAsRoot: 0
@@ -1629,23 +1629,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
---- !u!114 &2018875489867191255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8529148464113923753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <trackablesChanged>k__BackingField:
-    m_PersistentCalls:
-      m_Calls: []
-  m_PlanePrefab: {fileID: 1307779002384737834, guid: e03c8e09bce2fec4bb362c6cce24e91d, type: 3}
-  m_DetectionMode: -1
 --- !u!114 &6677201522470322328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1658,21 +1641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275705c64f3d00e4a8a3f4206301dafb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 0}
-  rayInteractor: {fileID: 4987299619921137486}
-  triggerAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Trigger
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 5d896a79-cfa8-473b-bb04-323e378850bd
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 3279264004350380116, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  spawnParent: {fileID: 0}
+  ShowTopMostFoldoutHeaderGroup: 1
   canvas: {fileID: 0}
   menuButtonAction:
     m_UseReference: 1
@@ -1709,8 +1678,35 @@ MonoBehaviour:
         m_Action: Menu Button
         m_Flags: 8
       m_Flags: 0
-    m_Reference: {fileID: -6395602842196007441, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  spawningTrigger:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Spawning Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: dad0fbb6-b878-4026-9d16-2631bc8a9bd7
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  cubePrefabIndex: 2
 --- !u!114 &7589875355741547567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8529148464113923753}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40cd5faa96644eb46b9b4a47b447cd44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  playerPositions: []
+--- !u!114 &2018875489867191255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1719,11 +1715,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 8529148464113923753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40cd5faa96644eb46b9b4a47b447cd44, type: 3}
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTopMostFoldoutHeaderGroup: 1
-  playerPositions: []
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_PlanePrefab: {fileID: 1307779002384737834, guid: e03c8e09bce2fec4bb362c6cce24e91d, type: 3}
+  m_DetectionMode: -1
 --- !u!1 &8549870823160345584
 GameObject:
   m_ObjectHideFlags: 0
